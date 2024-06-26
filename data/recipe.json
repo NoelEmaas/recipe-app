@@ -1,1 +1,269 @@
-[{"id":1,"name":"Chicken Pork Sisig","image":"https://picsum.photos/seed/picsum/200/300","description":"Chicken Adobo is a popular Filipino dish that is easy to make and full of flavor. Chicken is simmered in a tangy, vinegary sauce that is seasoned with soy sauce, garlic, and bay leaves. Serve it over steamed rice for a delicious meal that the whole family will love.","ingredients":["2 lbs chicken thighs and drumsticks","1/2 cup soy sauce","1/2 cup vinegar","1 cup water","1 onion, sliced","4 cloves garlic, minced","2 bay leaves","1 tsp peppercorns","1 tbsp oil"],"instructions":["In a large pot, heat oil over medium heat.","Add garlic and onion, and cook until softened.","Add chicken and cook until browned on all sides.","Add soy sauce, vinegar, water, bay leaves, and peppercorns.","Bring to a boil, then reduce heat and simmer for 30 minutes, or until chicken is cooked through.","Serve over steamed rice."],"category":"Main Dish"},{"id":2,"name":"Chicken Sisig","image":"https://picsum.photos/seed/picsum/200/300","description":"Chicken Adobo is a popular Filipino dish that is easy to make and full of flavor. Chicken is simmered in a tangy, vinegary sauce that is seasoned with soy sauce, garlic, and bay leaves. Serve it over steamed rice for a delicious meal that the whole family will love.","ingredients":["2 lbs chicken thighs and drumsticks","1/2 cup soy sauce","1/2 cup vinegar","1 cup water","1 onion, sliced","4 cloves garlic, minced","2 bay leaves","1 tsp peppercorns","1 tbsp oil"],"instructions":["In a large pot, heat oil over medium heat.","Add garlic and onion, and cook until softened.","Add chicken and cook until browned on all sides.","Add soy sauce, vinegar, water, bay leaves, and peppercorns.","Bring to a boil, then reduce heat and simmer for 30 minutes, or until chicken is cooked through.","Serve over steamed rice."],"category":"Main Dish"}]
+[
+  {
+    "id": 1,
+    "image_link": "https://i.pinimg.com/originals/15/e1/c3/15e1c36f47861fe8cf198746b94c041b.jpg",
+    "recipe_name": "Filipino Style Escabeche",
+    "ingredients": [
+      "Fish",
+      "Vinegar",
+      "Sugar",
+      "Red Bell Pepper",
+      "Ginger",
+      "Garlic",
+      "Onion",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "1. Fry the fish. 2. Prepare the sauce with vinegar, sugar, and spices. 3. Pour the sauce over the fried fish.",
+    "label": "seafood",
+    "description": "A tangy and sweet Filipino dish featuring fried fish topped with a flavorful vinegar-based sauce and colorful vegetables. It's a perfect blend of sour, sweet, and savory flavors."
+  },
+  {
+    "id": 2,
+    "image_link": "https://www.inspiredtaste.net/wp-content/uploads/2018/09/Easy-Oven-Baked-Salmon-Recipe-2-1200.jpg",
+    "recipe_name": "Baked Garlic Salmon",
+    "ingredients": [
+      "Salmon",
+      "Garlic",
+      "Butter",
+      "Lemon",
+      "Parsley",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "1. Preheat the oven. 2. Season the salmon. 3. Bake with garlic and butter. 4. Serve with lemon and parsley.",
+    "label": "seafood",
+    "description": "A simple yet elegant dish of salmon fillet baked to perfection with aromatic garlic and rich butter. The lemon and parsley add a fresh, zesty finish to this healthy and delicious meal."
+  },
+  {
+    "id": 3,
+    "image_link": "https://eatlikepinoy.com/wp-content/uploads/2021/02/Creamy-Pininyahang-Manok.jpg",
+    "recipe_name": "Malapot na Pininyahang Manok",
+    "ingredients": [
+      "Chicken",
+      "Pineapple",
+      "Carrots",
+      "Bell Pepper",
+      "Onion",
+      "Garlic",
+      "Evaporated Milk",
+      "Fish Sauce",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "1. Sauté garlic and onion. 2. Add chicken and cook until light brown. 3. Add vegetables and pineapple. 4. Pour in milk and fish sauce. 5. Simmer until cooked.",
+    "label": "chicken",
+    "description": "A creamy Filipino chicken dish that combines the sweetness of pineapple with the richness of evaporated milk. This comforting meal features tender chicken and a medley of colorful vegetables in a luscious sauce."
+  },
+  {
+    "id": 4,
+    "image_link": "https://i2.wp.com/angsarap.net/wp-content/uploads/2012/05/gising-gising.jpg",
+    "recipe_name": "Chicken Gising-gising",
+    "ingredients": [
+      "Chicken",
+      "Green Beans",
+      "Coconut Milk",
+      "Shrimp Paste",
+      "Onion",
+      "Garlic",
+      "Ginger",
+      "Red Chili",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "1. Sauté garlic, onion, and ginger. 2. Add chicken and cook until brown. 3. Stir in shrimp paste and chili. 4. Pour in coconut milk and add green beans. 5. Simmer until beans are tender.",
+    "label": "chicken",
+    "description": "A spicy and creamy Filipino dish that literally means 'wake-wake' due to its stimulating flavors. This version uses chicken instead of the traditional pork, combined with green beans in a rich coconut milk sauce with a kick of chili."
+  },
+  {
+    "id": 5,
+    "image_link": "https://yummykitchentv.com/wp-content/uploads/2022/03/chicken-binagoongan-1200x822.jpg",
+    "recipe_name": "Chicken Binagoongan",
+    "ingredients": [
+      "Chicken",
+      "Shrimp Paste",
+      "Tomato",
+      "Onion",
+      "Garlic",
+      "Vinegar",
+      "Sugar",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "1. Sauté garlic, onion, and tomato. 2. Add chicken and cook until brown. 3. Stir in shrimp paste, vinegar, and sugar. 4. Simmer until chicken is cooked through.",
+    "label":"chicken",
+    "description": "A savory and umami-rich Filipino dish featuring chicken cooked with pungent shrimp paste (bagoong). The addition of vinegar and sugar creates a complex sweet and sour flavor profile that perfectly complements the chicken."
+  },
+  {
+    "id": 6,
+    "image_link": "https://i.ytimg.com/vi/WgcHnWy-Mz0/maxresdefault.jpg",
+    "recipe_name": "Batangas Kaldereta",
+    "ingredients": [
+      "Beef",
+      "Tomato Sauce",
+      "Potato",
+      "Carrot",
+      "Bell Pepper",
+      "Liver Spread",
+      "Green Peas",
+      "Onion",
+      "Garlic",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "1. Sauté garlic and onion. 2. Add beef and cook until brown. 3. Stir in tomato sauce and liver spread. 4. Add vegetables and simmer until tender.",
+    "label": "beef",
+    "description": "A hearty Filipino beef stew originating from Batangas province. This version of kaldereta features tender beef chunks and vegetables in a rich tomato-based sauce, enhanced with the unique addition of liver spread for extra depth and creaminess."
+  },
+  {
+    "id": 7,
+    "image_link": "https://www.theanthonykitchen.com/wp-content/uploads/2019/04/Mexican-Empanadas-with-Beef-and-Cheese-10.jpg",
+    "recipe_name": "Beef Empanadas",
+    "ingredients": [
+      "Beef",
+      "Potato",
+      "Carrot",
+      "Raisins",
+      "Onion",
+      "Garlic",
+      "Salt",
+      "Pepper",
+      "Pastry Dough"
+    ],
+    "instructions": "1. Cook beef with garlic and onion. 2. Add vegetables and raisins. 3. Fill pastry dough with mixture. 4. Bake until golden brown.",
+    "label": "beef",
+    "description": "A popular Latin American and Filipino pastry, these empanadas feature a savory beef filling encased in a flaky, golden-brown crust. The combination of meat, vegetables, and sweet raisins creates a delightful balance of flavors in every bite."
+  },
+  {
+    "id": 8,
+    "image_link": "https://houseofnasheats.com/wp-content/uploads/2021/05/Japanese-Curry-13.jpg",
+    "recipe_name": "Japanese Curry",
+    "ingredients": [
+      "Beef",
+      "Potato",
+      "Carrot",
+      "Onion",
+      "Garlic",
+      "Japanese Curry Roux",
+      "Water",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "1. Sauté garlic and onion. 2. Add beef and cook until brown. 3. Add vegetables and water. 4. Stir in curry roux and simmer until thickened.",
+    "label": "beef",
+    "description": "A comforting and mildly spiced Japanese dish featuring tender beef and vegetables in a thick, rich curry sauce. This curry is distinctively sweeter and less spicy than its Indian counterparts, making it a favorite in Japanese home cooking."
+  },
+  {
+    "id": 9,
+    "image_link": "https://panlasangpinoy.com/wp-content/uploads/2023/05/creamy-beef-with-mushroom.jpg",
+    "recipe_name": "Creamy Beef with Mushroom",
+    "ingredients": [
+      "Beef",
+      "Mushroom",
+      "Cream",
+      "Onion",
+      "Garlic",
+      "Butter",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "1. Sauté garlic and onion. 2. Add beef and cook until brown. 3. Add mushrooms and cream. 4. Simmer until thickened.",
+    "label": "beef",
+    "description": "A luxurious and comforting dish combining tender beef strips with earthy mushrooms in a rich, creamy sauce. This hearty meal is perfect for cooler days and pairs wonderfully with rice or pasta."
+  },
+  {
+    "id": 10,
+    "image_link": "https://assets.unileversolutions.com/recipes-v2/214402.png",
+    "recipe_name": "Better Beef Nilaga",
+    "ingredients": [
+      "Beef",
+      "Potato",
+      "Cabbage",
+      "Green Beans",
+      "Onion",
+      "Garlic",
+      "Peppercorn",
+      "Fish Sauce",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "1. Boil beef with garlic, onion, and peppercorn. 2. Add vegetables. 3. Season with fish sauce. 4. Simmer until beef is tender.",
+    "label": "beef",
+    "description": "A classic Filipino soup featuring tender beef and assorted vegetables in a clear, flavorful broth. This comforting dish is known for its simplicity and nourishing qualities, perfect for cold days or when feeling under the weather."
+  },
+  {
+    "id": 11,
+    "image_link": "https://panlasangpinoy.com/wp-content/uploads/2023/04/ox-tail-kare-kare-recipe-1024x683.jpg",
+    "recipe_name": "Kare Kare Buntot ng Baka",
+    "ingredients": [
+      "Oxtail",
+      "Peanut Butter",
+      "Banana Heart",
+      "Eggplant",
+      "Long Beans",
+      "Onion",
+      "Garlic",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "1. Boil oxtail with garlic and onion. 2. Add vegetables. 3. Stir in peanut butter. 4. Simmer until tender.",
+    "label": "beef",
+    "description": "A rich and creamy Filipino stew made with tender oxtail and a variety of vegetables in a thick peanut sauce. This version of kare-kare showcases the gelatinous texture of oxtail, which becomes melt-in-your-mouth tender when slow-cooked."
+  },
+  {
+    "id": 12, 
+    "image_link": "https://images.deliveryhero.io/image/foodpanda/recipes/balbacua-recipe-2.jpg",
+    "recipe_name": "Balbacua",
+    "ingredients": [
+      "Beef Shank",
+      "Banana Blossom",
+      "Peanut",
+      "Garlic",
+      "Onion",
+      "Ginger",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "1. Boil beef shank with garlic, onion, and ginger. 2. Add banana blossom and peanuts. 3. Simmer until tender.",
+    "label":"beef",
+    "description": "A hearty Visayan soup from the Philippines, featuring beef shanks slow-cooked until tender in a rich, thick broth. The addition of banana blossom and peanuts gives this dish a unique texture and flavor profile."
+  },
+  {
+    "id": 13,
+    "image_link": "https://yummykitchentv.com/wp-content/uploads/2021/05/no-bake-macaroni-recipe-yummy-kitchen.jpg",
+    "recipe_name": "No Bake Macaroni",
+    "ingredients": [
+      "Macaroni",
+      "Ground Beef",
+      "Tomato Sauce",
+      "Cheese",
+      "Milk",
+      "Garlic",
+      "Onion",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "1. Cook macaroni. 2. Sauté garlic and onion. 3. Add ground beef and tomato sauce. 4. Mix with macaroni.",
+    "label":"other",
+    "description": "A quick and easy pasta dish that doesn't require baking. This comforting meal combines tender macaroni with savory ground beef in a creamy tomato sauce, topped with melted cheese for added richness."
+  },
+  {
+    "id": 14,
+    "image_link": "https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_2000/https://norecipes.com/wp-content/uploads/2017/12/chicken-adobo_008.jpg",
+    "recipe_name": "Chicken Adobo",
+    "ingredients": [
+      "2 lbs chicken",
+      "1/4 cup soy sauce",
+      "1/4 cup vinegar",
+      "4 cloves garlic",
+      "1 onion",
+      "1 bay leaf",
+      "1 tsp peppercorns",
+      "1 tbsp sugar",
+      "1 cup water"
+    ],
+    "instructions": "1. Marinate chicken in soy sauce and garlic. 2. Sauté onion and garlic. 3. Add marinated chicken and bay leaf. 4. Pour in vinegar and water. 5. Simmer until chicken is tender. 6. Add sugar, stir well, and simmer for another 5 minutes.",
+    "label":"chicken",
+    "description": "The unofficial national dish of the Philippines, chicken adobo features chicken braised in a tangy mixture of soy sauce and vinegar. This savory and slightly sour dish is known for its bold flavors and tender meat."
+  }
+]

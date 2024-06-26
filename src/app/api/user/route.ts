@@ -10,3 +10,13 @@ export async function GET () {
   
   return NextResponse.json(users);
 }
+
+export async function POST (request: Request) {
+  const user = await request.json() as User;
+  const users = await fileUtility.read();
+  
+  users.push(user);
+  await fileUtility.write(users);
+  
+  return NextResponse.json(user, { status: 201 });
+}

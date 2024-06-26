@@ -3,8 +3,9 @@ import { Recipe } from "@/types/recipe.type";
 
 import FileUtility from "@/utils/fileUtility";
 
+const fileUtility = new FileUtility<Recipe>("recipe");
+
 export async function GET () {
-  const fileUtility = new FileUtility<Recipe>("recipe");
   const recipes = await fileUtility.read();
 
   return NextResponse.json(recipes);
@@ -12,7 +13,6 @@ export async function GET () {
 
 export async function POST (request: Request) {
   const recipe = await request.json() as Recipe;
-  const fileUtility = new FileUtility<Recipe>("recipe");
   const recipes = await fileUtility.read();
   
   recipes.push(recipe);

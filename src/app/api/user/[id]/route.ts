@@ -38,3 +38,21 @@ export async function PUT (request: Request, context: { params: { id: string } }
 
   return NextResponse.json(newUser);
 }
+
+export async function DELETE (request: Request, context: { params: { id: string } }) {
+  const { id } = context.params;
+  const users = await fileUtility.read();
+  const user = users.findIndex((user: User) => user.id === Number(id));
+
+  if (user === -1) {
+    return NextResponse.json(
+      { error: "User not found" },
+      { status: 404 }
+    );
+  }
+
+  users.splice(user, 1);
+  await fileUtility.write(users);
+
+  return NextResponse.json({ message: "User deleted" });
+}

@@ -2,7 +2,8 @@ import {
   Footer, 
   Header, 
   Hero, 
-  RecipeList 
+  RecipeList,
+  Seasonal
 } from "@/components";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <div className="container mx-auto px-2">
         <Header />
         <Hero />
+        <Seasonal />
         <RecipeList />
       </div>
       <Footer />

@@ -1,11 +1,10 @@
-import Image from "next/image";
-
-import { Header } from "@/components";
+import { Header, RecipeList } from "@/components";
 
 export default function Home() {
   return (
-    <main className="container mx-auto px-10">
+    <main className="container mx-auto px-2">
       <Header />
+      <RecipeList />
     </main>
   );
 }

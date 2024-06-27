@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "image_link": "https://i.pinimg.com/originals/15/e1/c3/15e1c36f47861fe8cf198746b94c041b.jpg",
-    "recipe_name": "Filipino Style Escabeche",
+    "image": "https://i.pinimg.com/originals/15/e1/c3/15e1c36f47861fe8cf198746b94c041b.jpg",
+    "name": "Filipino Style Escabeche",
     "ingredients": [
       "Fish",
       "Vinegar",
@@ -20,8 +20,8 @@
   },
   {
     "id": 2,
-    "image_link": "https://www.inspiredtaste.net/wp-content/uploads/2018/09/Easy-Oven-Baked-Salmon-Recipe-2-1200.jpg",
-    "recipe_name": "Baked Garlic Salmon",
+    "image": "https://www.inspiredtaste.net/wp-content/uploads/2018/09/Easy-Oven-Baked-Salmon-Recipe-2-1200.jpg",
+    "name": "Baked Garlic Salmon",
     "ingredients": [
       "Salmon",
       "Garlic",
@@ -37,8 +37,8 @@
   },
   {
     "id": 3,
-    "image_link": "https://eatlikepinoy.com/wp-content/uploads/2021/02/Creamy-Pininyahang-Manok.jpg",
-    "recipe_name": "Malapot na Pininyahang Manok",
+    "image": "https://eatlikepinoy.com/wp-content/uploads/2021/02/Creamy-Pininyahang-Manok.jpg",
+    "name": "Malapot na Pininyahang Manok",
     "ingredients": [
       "Chicken",
       "Pineapple",
@@ -57,8 +57,8 @@
   },
   {
     "id": 4,
-    "image_link": "https://i2.wp.com/angsarap.net/wp-content/uploads/2012/05/gising-gising.jpg",
-    "recipe_name": "Chicken Gising-gising",
+    "image": "https://i2.wp.com/angsarap.net/wp-content/uploads/2012/05/gising-gising.jpg",
+    "name": "Chicken Gising-gising",
     "ingredients": [
       "Chicken",
       "Green Beans",
@@ -77,8 +77,8 @@
   },
   {
     "id": 5,
-    "image_link": "https://yummykitchentv.com/wp-content/uploads/2022/03/chicken-binagoongan-1200x822.jpg",
-    "recipe_name": "Chicken Binagoongan",
+    "image": "https://yummykitchentv.com/wp-content/uploads/2022/03/chicken-binagoongan-1200x822.jpg",
+    "name": "Chicken Binagoongan",
     "ingredients": [
       "Chicken",
       "Shrimp Paste",
@@ -96,8 +96,8 @@
   },
   {
     "id": 6,
-    "image_link": "https://i.ytimg.com/vi/WgcHnWy-Mz0/maxresdefault.jpg",
-    "recipe_name": "Batangas Kaldereta",
+    "image": "https://i.ytimg.com/vi/WgcHnWy-Mz0/maxresdefault.jpg",
+    "name": "Batangas Kaldereta",
     "ingredients": [
       "Beef",
       "Tomato Sauce",
@@ -117,8 +117,8 @@
   },
   {
     "id": 7,
-    "image_link": "https://www.theanthonykitchen.com/wp-content/uploads/2019/04/Mexican-Empanadas-with-Beef-and-Cheese-10.jpg",
-    "recipe_name": "Beef Empanadas",
+    "image": "https://www.theanthonykitchen.com/wp-content/uploads/2019/04/Mexican-Empanadas-with-Beef-and-Cheese-10.jpg",
+    "name": "Beef Empanadas",
     "ingredients": [
       "Beef",
       "Potato",
@@ -136,8 +136,8 @@
   },
   {
     "id": 8,
-    "image_link": "https://houseofnasheats.com/wp-content/uploads/2021/05/Japanese-Curry-13.jpg",
-    "recipe_name": "Japanese Curry",
+    "image": "https://houseofnasheats.com/wp-content/uploads/2021/05/Japanese-Curry-13.jpg",
+    "name": "Japanese Curry",
     "ingredients": [
       "Beef",
       "Potato",
@@ -155,8 +155,8 @@
   },
   {
     "id": 9,
-    "image_link": "https://panlasangpinoy.com/wp-content/uploads/2023/05/creamy-beef-with-mushroom.jpg",
-    "recipe_name": "Creamy Beef with Mushroom",
+    "image": "https://panlasangpinoy.com/wp-content/uploads/2023/05/creamy-beef-with-mushroom.jpg",
+    "name": "Creamy Beef with Mushroom",
     "ingredients": [
       "Beef",
       "Mushroom",
@@ -173,8 +173,8 @@
   },
   {
     "id": 10,
-    "image_link": "https://assets.unileversolutions.com/recipes-v2/214402.png",
-    "recipe_name": "Better Beef Nilaga",
+    "image": "https://assets.unileversolutions.com/recipes-v2/214402.png",
+    "name": "Better Beef Nilaga",
     "ingredients": [
       "Beef",
       "Potato",
@@ -193,8 +193,8 @@
   },
   {
     "id": 11,
-    "image_link": "https://panlasangpinoy.com/wp-content/uploads/2023/04/ox-tail-kare-kare-recipe-1024x683.jpg",
-    "recipe_name": "Kare Kare Buntot ng Baka",
+    "image": "https://panlasangpinoy.com/wp-content/uploads/2023/04/ox-tail-kare-kare-recipe-1024x683.jpg",
+    "name": "Kare Kare Buntot ng Baka",
     "ingredients": [
       "Oxtail",
       "Peanut Butter",
@@ -212,8 +212,8 @@
   },
   {
     "id": 12, 
-    "image_link": "https://images.deliveryhero.io/image/foodpanda/recipes/balbacua-recipe-2.jpg",
-    "recipe_name": "Balbacua",
+    "image": "https://images.deliveryhero.io/image/foodpanda/recipes/balbacua-recipe-2.jpg",
+    "name": "Balbacua",
     "ingredients": [
       "Beef Shank",
       "Banana Blossom",
@@ -230,8 +230,8 @@
   },
   {
     "id": 13,
-    "image_link": "https://yummykitchentv.com/wp-content/uploads/2021/05/no-bake-macaroni-recipe-yummy-kitchen.jpg",
-    "recipe_name": "No Bake Macaroni",
+    "image": "https://yummykitchentv.com/wp-content/uploads/2021/05/no-bake-macaroni-recipe-yummy-kitchen.jpg",
+    "name": "No Bake Macaroni",
     "ingredients": [
       "Macaroni",
       "Ground Beef",
@@ -249,8 +249,8 @@
   },
   {
     "id": 14,
-    "image_link": "https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_2000/https://norecipes.com/wp-content/uploads/2017/12/chicken-adobo_008.jpg",
-    "recipe_name": "Chicken Adobo",
+    "image": "https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_2000/https://norecipes.com/wp-content/uploads/2017/12/chicken-adobo_008.jpg",
+    "name": "Chicken Adobo",
     "ingredients": [
       "2 lbs chicken",
       "1/4 cup soy sauce",

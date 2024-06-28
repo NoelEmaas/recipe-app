@@ -1,7 +1,4 @@
 import { Fragment } from 'react'
-import { Playfair_Display } from 'next/font/google'
-
-const playfair_display = Playfair_Display({ weight: "700", subsets: ["latin"] });
 
 const iconNames = [
   'bread',
@@ -27,7 +24,6 @@ const CategoryCard = ({ name }: { name: string }) => {
 const Categories = () => {
   return (
     <Fragment>
-      <h1 className={`text-3xl font-bold mb-8 ${playfair_display.className}`}>Categories</h1>
       <div className='grid grid-cols-9 gap-10 mb-20'>
         {
           iconNames.map((name, index) => (

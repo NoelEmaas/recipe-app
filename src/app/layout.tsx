@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Manrope } from "next/font/google";
 import { GeistSans } from "geist/font/sans";
 import "@/styles/globals.css";
 
-const manrope = Manrope({ subsets: ["latin"] });
+import { Header, Footer, } from "@/components";
 
 export const metadata: Metadata = {
   title: "Recipe App",
@@ -17,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={GeistSans.className}>{children}</body>
+      <body className={GeistSans.className}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

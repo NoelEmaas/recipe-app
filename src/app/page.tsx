@@ -1,23 +1,25 @@
 import { 
   Categories,
-  Footer, 
-  Header, 
   Hero, 
   RecipeList,
-  Seasonal
+  Seasonal,
+  Title
 } from "@/components";
 
-export default function Home() {
+const Home = () => {
   return (
     <main >
       <div className="container mx-auto px-2">
-        <Header />
         <Hero />
+        <Title title="Perfect for this Season" />
         <Seasonal />
+        <Title title="Categories" />
         <Categories />
+        <Title title="Discover Recipes" />
         <RecipeList />
       </div>
-      <Footer />
     </main>
   );
 }
+
+export default Home;

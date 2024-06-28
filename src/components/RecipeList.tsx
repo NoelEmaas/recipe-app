@@ -1,11 +1,8 @@
 "use client";
 
 import { useState, useEffect, Fragment } from "react";
-import { Playfair_Display } from "next/font/google";
 import { Recipe } from "@/types/recipe.type";
 import { RecipeCard } from "@/components";
-
-const playfair_display = Playfair_Display({ weight: "700", subsets: ["latin"] });
 
 const RecipeList = () => {
   const [recipes, setRecipes] = useState<Recipe[]>([]);
@@ -22,7 +19,6 @@ const RecipeList = () => {
 
   return (
     <Fragment>
-      <h1 className={`text-3xl font-bold mb-8 ${playfair_display.className}`}>Discover Recipes</h1>
       <div className="grid grid-cols-4 gap-8">
         {
           recipes.slice(0, 12).map((recipe) => (

@@ -7,6 +7,7 @@ import RecipeList from './RecipeList';
 import RecipeCard from './RecipeCard';
 import Seasonal from './Seasonal';
 import SeasonalCard from './SeasonalCard';
+import Title from './Title';
 
 export {
   Categories,
@@ -16,5 +17,6 @@ export {
   RecipeList,
   RecipeCard,
   Seasonal,
-  SeasonalCard
+  SeasonalCard,
+  Title
 }

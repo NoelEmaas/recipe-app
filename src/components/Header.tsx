@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between py-16">
       <h1 className={`w-[200px] header-title ${lobster.className} text-4xl`}>FlavorShare</h1>
-      <ul className="flex items-center gap-x-10 font-medium">
+      <ul className="lg:flex hidden items-center gap-x-10 font-medium">
         <li>Homepage</li>
         <li>Categories</li>
         <li>Favorites</li>

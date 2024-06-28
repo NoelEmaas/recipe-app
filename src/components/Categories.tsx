@@ -1,6 +1,4 @@
-"use client";
-
-import { useState, Fragment } from 'react'
+import { Fragment } from 'react'
 import { Playfair_Display } from 'next/font/google'
 
 const playfair_display = Playfair_Display({ weight: "700", subsets: ["latin"] });

@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex items-center justify-between">
           <div>
             <h1 className={`text-4xl mb-4 ${lobster.className}`}>FlavorShare</h1>
-            <p className="text-gray-700 w-[600px]">
+            <p className="text-gray-700">
               "Your ultimate destination for culinary exploration and creativity. 
               Discover a vast array of recipes from everyday meals to gourmet delights, curated by food lovers worldwide. 
               Browse by cuisine, ingredient, or dietary preference, and find your next favorite dish."

@@ -8,7 +8,7 @@ interface TitleProps {
 
 const Title = ({ title }: TitleProps) => {
   return (
-    <h1 className={`text-3xl font-bold mb-8 ${playfair_display.className}`}>{ title }</h1>
+    <h1 className={`sm:text-3xl text-2xl font-bold mb-8 ${playfair_display.className}`}>{ title }</h1>
   )
 }
 

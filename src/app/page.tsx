@@ -9,7 +9,7 @@ import {
 const Home = () => {
   return (
     <main >
-      <div className="container mx-auto px-2">
+      <div className="container mx-auto px-4">
         <Hero />
         <Title title="Perfect for this Season" />
         <Seasonal />

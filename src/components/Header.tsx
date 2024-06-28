@@ -5,8 +5,8 @@ const lobster = Lobster({ weight: "400", subsets: ["latin"] });
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between py-16 container mx-auto px-2">
-      <h1 className={`w-[200px] ${lobster.className} text-4xl`}>FlavorShare</h1>
+    <header className="flex items-center justify-between sm:py-16 py-12 container mx-auto px-4">
+      <h1 className={`w-[200px] ${lobster.className} sm:text-4xl text-3xl`}>FlavorShare</h1>
       <ul className="lg:flex hidden items-center gap-x-10 font-medium">
         <li>Homepage</li>
         <li>Recipes</li>

@@ -19,7 +19,7 @@ const RecipeList = () => {
 
   return (
     <Fragment>
-      <div className="grid grid-cols-4 gap-8">
+      <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-4">
         {
           recipes.slice(0, 12).map((recipe) => (
             <RecipeCard key={recipe.id} {...recipe} />

@@ -20,7 +20,7 @@ const Seasonal = () => {
   
   return (
     <Fragment>
-      <div className="grid grid-cols-3 gap-8 mb-20">
+      <div className="grid sm:grid-cols-3 grid-cols-1 md:gap-8 gap-4 mb-20">
         {
           seasonal.slice(0, 3).map((recipe) => (
             <SeasonalCard key={recipe.id} {...recipe} />

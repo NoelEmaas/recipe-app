@@ -1,4 +1,5 @@
 
+import Categories from './Categories';
 import Footer from './Footer';
 import Header from './Header';
 import Hero from './Hero';
@@ -8,6 +9,7 @@ import Seasonal from './Seasonal';
 import SeasonalCard from './SeasonalCard';
 
 export {
+  Categories,
   Footer,
   Header,
   Hero,

@@ -1,4 +1,5 @@
 import { 
+  Categories,
   Footer, 
   Header, 
   Hero, 
@@ -13,6 +14,7 @@ export default function Home() {
         <Header />
         <Hero />
         <Seasonal />
+        <Categories />
         <RecipeList />
       </div>
       <Footer />

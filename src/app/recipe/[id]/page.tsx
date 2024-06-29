@@ -12,17 +12,32 @@ const playfair_display = Playfair_Display({ weight: "700", subsets: ["latin"] })
 
 const RecipeDetailsPage = () => {
   const [recipe, setRecipe] = useState<Partial<Recipe>>({});
+  const [hasError, setHasError] = useState(false);
   const { id } = useParams(); 
 
   useEffect(() => {
     const fetchRecipe = async () => {
       const response = await fetch(`/api/recipe/${id}`);
       const data = await response.json();
-      setRecipe(data);
+
+      if (response.status !== 200) {
+        setHasError(true);
+        return;
+      }
+
+      setRecipe(data); 
     }
 
     fetchRecipe();
   }, [id]);
+
+  if (hasError) {
+    return (
+      <main className="container px-2 mx-auto mb-20">
+        <h1 className={`text-5xl font-bold mb-6 ${playfair_display.className}`}>Recipe not found</h1>
+      </main>
+    )
+  }
 
   return (
     <main className="container px-2 mx-auto mb-20">

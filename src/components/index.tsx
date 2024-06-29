@@ -1,5 +1,6 @@
 
 import Categories from './Categories';
+import Collapsible from './Collapsible';
 import Footer from './Footer';
 import Header from './Header';
 import Hero from './Hero';
@@ -10,6 +11,7 @@ import SeasonalCard from './SeasonalCard';
 import Title from './Title';
 
 export {
+  Collapsible,
   Categories,
   Footer,
   Header,

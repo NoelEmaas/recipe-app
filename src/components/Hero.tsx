@@ -48,8 +48,8 @@ const Hero = () => {
           className={`h-full w-full lg:rounded-l-xl rounded-xl duration-1000 ${isTransitioning ? 'opacity-0' : 'opacity-100'}`}
           alt=""
         />
-        <div className="lg:hidden block absolute bg-gradient-to-t top-0 from-gray-900 h-full w-[99%] rounded-b-xl"></div>
-        <div className="lg:hidden block hidde absolute bottom-4 text-white px-6 pb-4">
+        <div className="lg:hidden block z-0 absolute bg-gradient-to-t top-0 from-gray-900 h-full w-[99%] rounded-b-xl"/>
+        <div className="lg:hidden block hidde absolute z-10 bottom-4 text-white px-6 pb-4">
           <h1 className={`xl:text-5xl lg:text-3xl text-2xl mb-4 line-clamp-1 ${playfair_display.className} transition-opacity duration-1000 ${isTransitioning ? 'opacity-0' : 'opacity-100'}`}>
             {currentRecipe?.name}
           </h1>

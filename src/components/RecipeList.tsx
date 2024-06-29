@@ -27,7 +27,7 @@ const RecipeList = () => {
         }
       </div>
       <div className="w-ful flex items-center justify-center my-10">
-        <button className="bg-white px-4 py-3 border border-gray-300 mx-auto font-bold rounded-xl shadow-sm">
+        <button className="bg-white px-4 py-3 border border-gray-300 mx-auto font-bold rounded-xl shadow-sm hover:bg-gray-50">
           Show More
         </button>
       </div>

@@ -3,6 +3,9 @@
 import { useState, useEffect } from "react";
 import { Playfair_Display } from "next/font/google";
 import { Recipe } from "@/types/recipe.type";
+import { MoveRight } from 'lucide-react';
+
+import Link from "next/link";
 
 const playfair_display = Playfair_Display({ weight: "700", subsets: ["latin"] });
 
@@ -29,7 +32,7 @@ const Hero = () => {
           (prevIndex + 1) % recipes.length
         );
         setIsTransitioning(false);
-      }, 500); // Half of the transition time
+      }, 500);
     }, 5000);
 
     return () => clearInterval(interval);
@@ -55,13 +58,20 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="lg:flex flex-col hidden p-10 h-full w-[35%] bg-[#e3effa] rounded-r-xl justify-center border">
+      <div className="lg:flex flex-col hidden p-10 h-full w-[35%] bg-slate-50 rounded-r-xl justify-center border">
         <h1 className={`xl:text-5xl lg:text-3xl text-xl mb-10 ${playfair_display.className} transition-opacity duration-1000 ${isTransitioning ? 'opacity-0' : 'opacity-100'}`}>
           {currentRecipe?.name}
         </h1>
         <p className={`xl:line-clamp-none line-clamp-3 transition-opacity duration-1000 ${isTransitioning ? 'opacity-0' : 'opacity-100'}`}>
           {currentRecipe?.description}
         </p>
+        <Link 
+          href={`/recipe/${currentRecipe?.id}`}
+          className="bg-gray-50 font-bold mt-10 flex gap-x-3 hover:italic hover:gap-x-4 duration-100"
+        >
+          View Recipe
+          <MoveRight size={24} />
+        </Link>
       </div>
     </div>
   )

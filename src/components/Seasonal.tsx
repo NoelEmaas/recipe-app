@@ -20,12 +20,27 @@ const Seasonal = () => {
   
   return (
     <Fragment>
-      <div className="grid sm:grid-cols-3 grid-cols-1 md:gap-8 gap-4 mb-20">
-        {
-          seasonal.slice(0, 3).map((recipe) => (
-            <SeasonalCard key={recipe.id} {...recipe} />
-          ))
-        }
+      <div className="logos group relative overflow-hidden whitespace-nowrap pb-20 sm:[mask-image:_linear-gradient(to_right,_transparent_0,_white_128px,white_calc(100%-128px),_transparent_100%)]">
+        <div className="animate-slide-left-infinite group-hover:animation-pause inline-block w-max md:pr-5 pr-4">
+          <div className='grid grid-cols-3 md:gap-x-8 gap-x-8'>
+            {
+              seasonal.slice(0, 3).map((recipe) => (
+                <SeasonalCard key={recipe.id} {...recipe} />
+              ))
+            }
+          </div>
+        </div>
+
+        {/* <!-- Duplicate of the above for infinite effect --> */}
+        <div className="animate-slide-left-infinite group-hover:animation-pause inline-block w-max">
+          <div className='grid grid-cols-3 md:gap-x-8 gap-x-6'>
+            {
+              seasonal.slice(0, 3).map((recipe) => (
+                <SeasonalCard key={recipe.id} {...recipe} />
+              ))
+            }
+          </div>
+        </div>
       </div>
     </Fragment>
   )

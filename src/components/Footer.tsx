@@ -11,9 +11,9 @@ const Footer = () => {
           <div className='lg:mb-0 mb-10'>
             <h1 className={`text-4xl mb-4 ${lobster.className}`}>FlavorShare</h1>
             <p className="text-gray-700 lg:w-[500px]">
-              "Your ultimate destination for culinary exploration and creativity. 
+              Your ultimate destination for culinary exploration and creativity. 
               Discover a vast array of recipes from everyday meals to gourmet delights, curated by food lovers worldwide. 
-              Browse by cuisine, ingredient, or dietary preference, and find your next favorite dish."
+              Browse by cuisine, ingredient, or dietary preference, and find your next favorite dish.
             </p>
           </div>
           <div className="flex items-center sm:gap-x-28 gap-x-12">

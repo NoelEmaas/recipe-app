@@ -45,7 +45,7 @@ const Home = () => {
           <button className="bg-white px-4 py-3 border border-gray-300 mx-auto font-bold rounded-xl shadow-sm hover:bg-gray-50">
             Discover More
           </button>
-      </div>
+        </div>
       </div>
     </main>
   );

@@ -22,7 +22,7 @@ const RecipeList = ({ recipes, isPending }: RecipeListProps) => {
         </div>
         <img src={recipe.image} alt="" className="border rounded-lg sm:mb-4 sm:w-full sm:h-[200px] w-[150px] h-full sm:hidden"/>
         <div>
-          <p className="text-sm font-semibold text-[#FF6A3A] mb-2">{recipe.category}</p>
+          <p className="text-sm font-semibold text-[#FF6A3A] sm:mb-2">{recipe.category}</p>
           <h2 className="font-bold mb-2 line-clamp-2 group-hover:underline">{recipe.name}</h2>
           <p className="text-sm text-gray-600 sm:line-clamp-3 line-clamp-2 sm:mb-4">{recipe.description}</p>
         </div>

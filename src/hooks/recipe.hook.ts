@@ -10,7 +10,7 @@ interface FetchResult<T> {
 const useFetch = <T>(url: string): FetchResult<T> => {
   const [data, setData] = useState<T | null>(null);
   const [isPending, setIsPending] = useState<boolean>(true);
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>('error');
 
   useEffect(() => {
     const fetchData = async () => {

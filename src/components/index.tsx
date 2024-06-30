@@ -1,6 +1,7 @@
 
 import Categories from './Categories';
 import Collapsible from './Collapsible';
+import Error from './Error';
 import Footer from './Footer';
 import Header from './Header';
 import Hero from './Hero';
@@ -13,6 +14,7 @@ import Title from './Title';
 export {
   Collapsible,
   Categories,
+  Error,
   Footer,
   Header,
   Hero,

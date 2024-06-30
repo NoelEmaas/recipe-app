@@ -3,6 +3,7 @@
 import { 
   Categories,
   Hero, 
+  Error,
   RecipeList,
   Seasonal,
   Title
@@ -13,6 +14,10 @@ import { useFetchRecipes } from "@/hooks/recipe.hook";
 const Home = () => {
   const { data, isPending, error } = useFetchRecipes();
   
+  if (error) {
+    return <Error />
+  }
+
   return (
     <main >
       <div className="container mx-auto px-4">

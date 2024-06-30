@@ -7,6 +7,7 @@ import { useFetchRecipes } from "@/hooks/recipe.hook";
 import { useState, useEffect, Suspense } from "react";
 
 import CategoryBackground from "./_components/CategoryBackground";
+import CategoryTitle from "./_components/CategoryTitle";
 import FilteredRecipeList from "./_components/FilteredRecipeList";
 import Search from "./_components/Search";
 
@@ -42,8 +43,9 @@ const RecipePage = () => {
     <main className="mx-auto">
       <div className="animate-fade-down-enter w-full h-fit relative">
         <div className="absolute left-1/2 -translate-x-1/2 top-16 flex flex-col items-center gap-y-4 w-full px-6">
-          <h1 className={`sm:text-5xl text-3xl text-black font-bold px-4 tYext-center ${playfair_display.className}`}>Discover Recipes</h1>
-          <p className="text-gray-700 px-4 text-center">Explore a wide variety of recipes from different categories</p>
+          <Suspense fallback={<div>Loading ...</div>}>
+            <CategoryTitle />
+          </Suspense>
           <Suspense fallback={<div>Loading ...</div>}>
             <Search />
           </Suspense>

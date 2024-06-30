@@ -12,7 +12,11 @@ import {
 import { useFetchRecipes } from "@/hooks/recipe.hook";
 
 const Home = () => {
-  const { data, isPending, error } = useFetchRecipes();
+  const { 
+    data: recipes, 
+    isPending, 
+    error 
+  } = useFetchRecipes();
   
   if (error) {
     return <Error />
@@ -22,21 +26,26 @@ const Home = () => {
     <main >
       <div className="container mx-auto px-4">
         <Hero 
-          recipes={ data! } 
+          recipes={ recipes! } 
           isPending={ isPending }
         />
         <Title title="Perfect for this Season" />
         <Seasonal 
-          recipes={ data! } 
+          recipes={ recipes! } 
           isPending={ isPending }
         />
         <Title title="Categories" />
         <Categories />
         <Title title="Discover Recipes" />
         <RecipeList 
-          recipes={ data! } 
+          recipes={ recipes?.slice(0, 12)! } 
           isPending={ isPending }
         />
+        <div className="w-ful flex items-center justify-center my-10">
+          <button className="bg-white px-4 py-3 border border-gray-300 mx-auto font-bold rounded-xl shadow-sm hover:bg-gray-50">
+            Discover More
+          </button>
+      </div>
       </div>
     </main>
   );

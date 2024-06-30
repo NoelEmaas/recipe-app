@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Recipe } from "@/types/recipe.type";
 import { Image, Timer } from 'lucide-react';
+
 import Link from "next/link";
 
 interface RecipeListProps {
@@ -50,25 +51,19 @@ const RecipeList = ({ recipes, isPending }: RecipeListProps) => {
 
   return (
     <Fragment>
-      <div className="animate-fade-up-enter grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-4">
+      <div className="animate-fade-up-enter grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-4 mb-16">
         {
           isPending ? (
             Array.from({ length: 12 }).map((_, index) => (
               <RecipeCardSkeleton key={index} />
             ))
           ) : (
-            recipes.slice(0, 12).map((recipe) => (
+            recipes.map((recipe) => (
               <RecipeCard key={recipe.id} {...recipe} />
             ))
           )
         }
       </div>
-      <div className="w-ful flex items-center justify-center my-10">
-        <button className="bg-white px-4 py-3 border border-gray-300 mx-auto font-bold rounded-xl shadow-sm hover:bg-gray-50">
-          Show More
-        </button>
-      </div>
-
     </Fragment>
   )
 }

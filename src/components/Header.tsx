@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { Lobster } from "next/font/google";
-import { Search, Menu } from "lucide-react";
+import { Search } from "lucide-react";
 import { Collapsible } from "@/components";
-
+import { ChevronDown } from 'lucide-react';
 import Link from "next/link";
 
 const lobster = Lobster({ weight: "400", subsets: ["latin"] });
@@ -31,6 +31,16 @@ const HamburgerIcon = ({ onClick }: { onClick: () => void}) => {
 
 const Header = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
+  const categories = [
+    'Baked Goods',
+    'Beverage',
+    'Dessert',
+    'Fried or Grilled',
+    'Main Dish',
+    'Salad',
+    'Seafood',
+    'Soup or Stew'
+  ];
 
   const handleCollapsible = () => {
     setIsCollapsed(!isCollapsed);
@@ -43,8 +53,40 @@ const Header = () => {
         <ul className="lg:flex hidden items-center gap-x-6 font-medium">
           <li className="hover:bg-slate-100 px-4 py-1 rounded-full hover:shadow-sm"><Link href="/">Homepage</Link></li>
           <li className="hover:bg-slate-100 px-4 py-1 rounded-full hover:shadow-sm"><Link href="/recipe">Recipes</Link></li>
-          <li className="hover:bg-slate-100 px-4 py-1 rounded-full hover:shadow-sm">Categories</li>
-          {/* <li className="hover:bg-slate-100 px-4 py-1 rounded-full hover:shadow-sm">Favorites</li> */}
+          <div className="hover:bg-slate-100 px-4 py-1 rounded-full hover:shadow-sm flex items-center gap-x-2 group relative">
+            Categories 
+            <ChevronDown className="w-5 h-5"/>
+            <div className="absolute group-hover:block hidden pt-56 z-50 w-[300px]">
+              <div className="flex items-center border bg-white w-[200px] p-6 rounded-lg w-full gap-x-6">
+                <div className="flex flex-col gap-y-2">
+                  {
+                    categories.slice(0, 4).map((category, index) => (
+                      <Link 
+                        key={index} 
+                        href={`/recipe?category=${category.toLowerCase().replace(/ /g, '+')}`}
+                        className="hover:text-[#FF6A3A]"
+                      >
+                        {category}
+                      </Link>
+                    ))
+                  }
+                </div>
+                <div className="flex flex-col gap-y-2">
+                  {
+                    categories.slice(4).map((category, index) => (
+                      <Link 
+                        key={index} 
+                        href={`/recipe?category=${category.toLowerCase().replace(/ /g, '+')}`}
+                        className="hover:text-[#FF6A3A]"
+                      >
+                        {category}
+                      </Link>
+                    ))
+                  }
+                </div>
+              </div>
+            </div>
+          </div>
         </ul>
         <div className="w-[200px] lg:flex hidden items-center justify-end gap-x-4">
           <Search />

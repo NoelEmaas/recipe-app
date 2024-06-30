@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { 
   Categories,
   Hero, 
@@ -8,7 +9,6 @@ import {
   Seasonal,
   Title
 } from "@/components";
-
 import { useFetchRecipes } from "@/hooks/recipe.hook";
 
 const Home = () => {
@@ -42,9 +42,9 @@ const Home = () => {
           isPending={ isPending }
         />
         <div className="w-ful flex items-center justify-center my-10">
-          <button className="bg-white px-4 py-3 border border-gray-300 mx-auto font-bold rounded-xl shadow-sm hover:bg-gray-50">
+          <Link href="/recipe" className="bg-white px-4 py-3 border border-gray-300 mx-auto font-bold rounded-xl shadow-sm hover:bg-gray-50">
             Discover More
-          </button>
+          </Link>
         </div>
       </div>
     </main>

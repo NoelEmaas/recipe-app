@@ -1,7 +1,6 @@
 "use client";
 
 import { Error } from "@/components";
-import { Playfair_Display } from "next/font/google";
 import { Recipe } from "@/types/recipe.type";
 import { useFetchRecipes } from "@/hooks/recipe.hook";
 import { useState, useEffect, Suspense } from "react";
@@ -10,8 +9,6 @@ import CategoryBackground from "./_components/CategoryBackground";
 import CategoryTitle from "./_components/CategoryTitle";
 import FilteredRecipeList from "./_components/FilteredRecipeList";
 import Search from "./_components/Search";
-
-const playfair_display = Playfair_Display({ weight: "700", subsets: ["latin"] });
 
 const RecipePage = () => {
   const {

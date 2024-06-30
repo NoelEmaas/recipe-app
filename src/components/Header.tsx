@@ -44,7 +44,7 @@ const Header = () => {
           <li className="hover:bg-slate-100 px-4 py-1 rounded-full hover:shadow-sm"><Link href="/">Homepage</Link></li>
           <li className="hover:bg-slate-100 px-4 py-1 rounded-full hover:shadow-sm"><Link href="/recipe">Recipes</Link></li>
           <li className="hover:bg-slate-100 px-4 py-1 rounded-full hover:shadow-sm">Categories</li>
-          <li className="hover:bg-slate-100 px-4 py-1 rounded-full hover:shadow-sm">Favorites</li>
+          {/* <li className="hover:bg-slate-100 px-4 py-1 rounded-full hover:shadow-sm">Favorites</li> */}
         </ul>
         <div className="w-[200px] lg:flex hidden items-center justify-end gap-x-4">
           <Search />

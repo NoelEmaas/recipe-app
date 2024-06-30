@@ -5,6 +5,8 @@ import { Lobster } from "next/font/google";
 import { Search, Menu } from "lucide-react";
 import { Collapsible } from "@/components";
 
+import Link from "next/link";
+
 const lobster = Lobster({ weight: "400", subsets: ["latin"] });
 
 const HamburgerIcon = ({ onClick }: { onClick: () => void}) => {
@@ -38,11 +40,11 @@ const Header = () => {
     <header className="animate-fade-down-enter lg:py-16 lg:border-0 border-b py-8">
       <div className="flex items-center justify-between container mx-auto px-4">
         <h1 className={`w-[200px] ${lobster.className} lg:text-4xl text-3xl`}>FlavorShare</h1>
-        <ul className="lg:flex hidden items-center gap-x-10 font-medium">
-          <li>Homepage</li>
-          <li>Recipes</li>
-          <li>Categories</li>
-          <li>Favorites</li>
+        <ul className="lg:flex hidden items-center gap-x-6 font-medium">
+          <li className="hover:bg-slate-100 px-4 py-1 rounded-full hover:shadow-sm"><Link href="/">Homepage</Link></li>
+          <li className="hover:bg-slate-100 px-4 py-1 rounded-full hover:shadow-sm"><Link href="/recipe">Recipes</Link></li>
+          <li className="hover:bg-slate-100 px-4 py-1 rounded-full hover:shadow-sm">Categories</li>
+          <li className="hover:bg-slate-100 px-4 py-1 rounded-full hover:shadow-sm">Favorites</li>
         </ul>
         <div className="w-[200px] lg:flex hidden items-center justify-end gap-x-4">
           <Search />

@@ -93,8 +93,8 @@ const HeroSkeleton = () => {
         </div>
       </div>
       <div className="lg:flex flex-col hidden p-10 h-full w-[35%] bg-slate-50 rounded-r-xl justify-center border gap-y-3">
-        <div className="bg-gray-300 h-8 w-1/2 rounded-lg animate-pulse"/>
-        <div className="bg-gray-300 h-8 w-1/2 mb-4 rounded-lg animate-pulse"/>
+        <div className="bg-gray-300 h-8 w-1/2 rounded-full animate-pulse"/>
+        <div className="bg-gray-300 h-8 w-1/2 rounded-full animate-pulse mb-4"/>
         <div className="bg-gray-200 h-4 w-3/4 rounded-lg animate-pulse"/>
         <div className="bg-gray-200 h-4 w-3/4 rounded-lg animate-pulse"/>
         <div className="bg-gray-200 h-4 w-3/4 rounded-lg animate-pulse"/>

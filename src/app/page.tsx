@@ -21,7 +21,10 @@ const Home = () => {
           isPending={ isPending }
         />
         <Title title="Perfect for this Season" />
-        <Seasonal />
+        <Seasonal 
+          recipes={ data! } 
+          isPending={ isPending }
+        />
         <Title title="Categories" />
         <Categories />
         <Title title="Discover Recipes" />

@@ -28,7 +28,10 @@ const Home = () => {
         <Title title="Categories" />
         <Categories />
         <Title title="Discover Recipes" />
-        <RecipeList />
+        <RecipeList 
+          recipes={ data! } 
+          isPending={ isPending }
+        />
       </div>
     </main>
   );

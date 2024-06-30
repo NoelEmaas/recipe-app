@@ -15,7 +15,7 @@ const RecipePage = () => {
         <img src="/images/recipe_background.jpg" alt="" className="h-[300px] w-full object-cover mb-20"/>
       </div>
       <div className="container mx-auto px-4">
-        <RecipeList />
+        {/* <RecipeList /> */}
       </div>
     </main>
   )

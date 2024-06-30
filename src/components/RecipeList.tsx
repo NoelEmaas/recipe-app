@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { Recipe } from "@/types/recipe.type";
-import { Image } from 'lucide-react';
+import { Image, Timer } from 'lucide-react';
 import Link from "next/link";
 
 interface RecipeListProps {
@@ -12,11 +12,16 @@ const RecipeList = ({ recipes, isPending }: RecipeListProps) => {
   const RecipeCard = (recipe: Recipe) => {
     return (
       <Link href={`/recipe/${recipe.id}`} className="sm:block flex gap-x-4 border p-4 rounded-xl sm:h-full h-[140px] items-center group">
-        <div className="border rounded-lg sm:mb-4 sm:w-full sm:h-[200px] w-[150px] h-full overflow-hidden sm:block hidden">
+        <div className="border rounded-lg sm:mb-4 sm:w-full sm:h-[200px] w-[150px] h-full overflow-hidden sm:block hidden relative">
+          <div className="absolute text-white z-50 bg-black/35 top-2 left-2 px-3 py-1 text-sm rounded-full flex items-center gap-x-2 backdrop-filter backdrop-blur-md">
+            <Timer className="w-4 h-4"/>
+            {recipe.time}
+          </div>
           <img src={recipe.image} alt="" className="w-full h-full transition-transform duration-300 transform group-hover:scale-110"/>
         </div>
         <img src={recipe.image} alt="" className="border rounded-lg sm:mb-4 sm:w-full sm:h-[200px] w-[150px] h-full sm:hidden"/>
         <div>
+          <p className="text-sm font-semibold text-[#FF6A3A] mb-2">{recipe.category}</p>
           <h2 className="font-bold mb-2 line-clamp-2 group-hover:underline">{recipe.name}</h2>
           <p className="text-sm text-gray-600 sm:line-clamp-3 line-clamp-2 sm:mb-4">{recipe.description}</p>
         </div>
@@ -45,7 +50,7 @@ const RecipeList = ({ recipes, isPending }: RecipeListProps) => {
 
   return (
     <Fragment>
-      <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-4">
+      <div className="animate-fade-up-enter grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-4">
         {
           isPending ? (
             Array.from({ length: 12 }).map((_, index) => (

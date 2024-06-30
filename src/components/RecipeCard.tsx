@@ -1,11 +1,14 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Recipe } from "@/types/recipe.type"
+
 
 const RecipeCard = (recipe: Recipe) => {
   return (
     <Link href={`/recipe/${recipe.id}`} className="sm:block flex gap-x-4 border p-4 rounded-xl sm:h-full h-[140px] items-center group">
-      <div className="border rounded-lg sm:mb-4 sm:w-full sm:h-[200px] w-[150px] h-full overflow-hidden sm:block hidden">
-        <img src={recipe.image} alt="" className="w-full h-full transition-transform duration-300 transform group-hover:scale-110"/>
+      <div className="border rounded-lg sm:mb-4 sm:w-full sm:h-[200px] w-[150px] h-full overflow-hidden sm:block hidden relative">
+        <Image src={recipe.image} placeholder="blur" alt="" className="w-full h-full transition-transform duration-300 transform group-hover:scale-110"/>
+        <p className="absolute">{recipe.time}</p>
       </div>
       <img src={recipe.image} alt="" className="border rounded-lg sm:mb-4 sm:w-full sm:h-[200px] w-[150px] h-full sm:hidden"/>
       <div>

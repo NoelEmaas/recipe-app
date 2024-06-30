@@ -54,7 +54,13 @@ const RecipeDetailsPage = () => {
         }
       </ul>
       <Title title="Instructions" />
-      <p>{ recipe.instructions }</p>
+      <ol>
+        {
+          recipe.instructions?.map((instruction, index) => (
+            <li key={index} className="mb-2 list-decimal">{instruction}</li>
+          ))
+        }
+      </ol>
     </main>
   )
 }

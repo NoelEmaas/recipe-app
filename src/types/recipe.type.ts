@@ -4,8 +4,12 @@ interface Recipe {
   image: string;
   description: string;
   ingredients: string[];
-  instructions: string;
-  catgory: string;
+  instructions: string[];
+  flavors: string[];
+  category: string;
+  time: string;
+  servings: number;
+  best: string;
 }
 
 export type {

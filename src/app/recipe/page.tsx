@@ -38,7 +38,7 @@ const RecipePage = () => {
   }
 
   return (
-    <main className="mx-auto px-4">
+    <main className="mx-auto">
       <div className="animate-fade-down-enter w-full h-fit relative">
         <div className="absolute left-1/2 -translate-x-1/2 top-16 flex flex-col items-center gap-y-4 w-full px-6">
           <h1 className={`sm:text-5xl text-3xl text-black font-bold px-4 tYext-center ${playfair_display.className}`}>Discover Recipes</h1>

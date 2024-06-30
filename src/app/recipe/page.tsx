@@ -6,6 +6,7 @@ import { Recipe } from "@/types/recipe.type";
 import { useFetchRecipes } from "@/hooks/recipe.hook";
 import { useState, useEffect, Suspense } from "react";
 
+import CategoryBackground from "./_components/CategoryBackground";
 import FilteredRecipeList from "./_components/FilteredRecipeList";
 import Search from "./_components/Search";
 
@@ -47,7 +48,9 @@ const RecipePage = () => {
             <Search />
           </Suspense>
         </div>
-        <img src="/images/recipe_background.jpg" alt="" className="h-[300px] w-full object-cover mb-14"/>
+        <Suspense fallback={<div>Loading ...</div>}>
+          <CategoryBackground />
+        </Suspense>
       </div>
       <div className="container mx-auto px-4">
         <Suspense>

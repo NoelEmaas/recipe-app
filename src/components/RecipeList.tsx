@@ -5,11 +5,12 @@ import { Image, Timer } from 'lucide-react';
 import Link from "next/link";
 
 interface RecipeListProps {
-  recipes: Recipe[];
-  isPending: boolean;
+  recipes?: Recipe[];
+  isPending?: boolean;
+  displayLoadingOnly?: boolean;
 }
 
-const RecipeList = ({ recipes, isPending }: RecipeListProps) => {
+const RecipeList = ({ recipes, isPending, displayLoadingOnly }: RecipeListProps) => {
   const RecipeCard = (recipe: Recipe) => {
     return (
       <Link href={`/recipe/${recipe.id}`} className="sm:block flex gap-x-4 border p-4 rounded-xl sm:h-full h-[140px] items-center group">
@@ -53,12 +54,12 @@ const RecipeList = ({ recipes, isPending }: RecipeListProps) => {
     <Fragment>
       <div className="animate-fade-up-enter grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-4 mb-16">
         {
-          isPending ? (
+          isPending || displayLoadingOnly ? (
             Array.from({ length: 12 }).map((_, index) => (
               <RecipeCardSkeleton key={index} />
             ))
           ) : (
-            recipes.map((recipe) => (
+            recipes!.map((recipe) => (
               <RecipeCard key={recipe.id} {...recipe} />
             ))
           )

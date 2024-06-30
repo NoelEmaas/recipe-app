@@ -104,7 +104,7 @@
     "name": "French Onion Soup",
     "image": "https://www.southernliving.com/thmb/666OZE8KPnqG7fzFsY5lAGOw3Og=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Southern_Living_Slow-Cooker-French-Onion-Soup-35-1-52753713836a4b0d84b4701e27cb4e7e.jpg",
     "description": "French Onion Soup is a rich and flavorful soup featuring caramelized onions simmered in a beefy broth, topped with toasted baguette slices and melted Gruyère cheese. It has a deep and savory flavors profile with a hint of sweetness from the caramelized onions. French Onion Soup is perfect for cold winter days, offering a comforting and indulgent experience.",
-    "category": "Soup & Stew",
+    "category": "Soup or Stew",
     "ingredients": [
       "4 large onions, thinly sliced",
       "3 tablespoons unsalted butter",
@@ -274,7 +274,7 @@
     "name": "Tom Yum Soup",
     "image": "https://www.thespruceeats.com/thmb/PrhhN3g0-fkHH3ULhqcOdo8X_Mk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/vegetarian-tom-yum-soup-3217762-hero-01-4872510cb5f24d9480e7a2f4b8f23c57.jpg",
     "description": "Tom Yum Soup is a spicy and sour Thai soup that features shrimp (or other proteins), mushrooms, lemongrass, kaffir lime leaves, galangal, and chili peppers in a fragrant broth. It has a bold and refreshing flavors profile, with a balance of tangy lime juice, savory fish sauce, and aromatic herbs. Tom Yum Soup is perfect for warming up on cold days or as a flavorful appetizer in a Thai-inspired meal.",
-    "category": "Soup & Stew",
+    "category": "Soup or Stew",
     "ingredients": [
       "4 cups chicken or vegetable broth",
       "1 stalk lemongrass, cut into 2-inch pieces and bruised",
@@ -453,7 +453,7 @@
     "name": "Chicken Tortilla Soup",
     "image": "https://www.kyleecooks.com/wp-content/uploads/2019/08/Chicken-Tortilla-Soup-35.jpg",
     "description": "Chicken Tortilla Soup is a vibrant and flavorful soup made with shredded chicken, tomatoes, beans, corn, and spices. It's topped with crunchy tortilla strips, creamy avocado, fresh cilantro, and a squeeze of lime for a burst of freshness. This soup offers a perfect balance of textures and flavors, making it a favorite for gatherings or cozy nights at home.",
-    "category": "Soup & Stew",
+    "category": "Soup or Stew",
     "ingredients": [
       "2 tablespoons vegetable oil",
       "1 onion, chopped",
@@ -592,7 +592,7 @@
     "name": "Fried Chicken",
     "image": "https://lakegenevacountrymeats.com/wp-content/uploads/Fried-Chicken-Pieces.jpg",
     "description": "Crispy and flavorful fried chicken with a golden-brown crust and tender, juicy meat. This classic dish is seasoned with a blend of herbs and spices, coated in a buttermilk batter, and fried to perfection. Serve hot with your favorite sides for a comforting meal.",
-    "category": "Fried & Grilled",
+    "category": "Fried or Grilled",
     "ingredients": [
       "1 whole chicken, cut into pieces",
       "2 cups buttermilk",
@@ -658,7 +658,7 @@
     "name": "Grilled Chicken Skewers",
     "image": "https://thecafesucrefarine.com/wp-content/uploads/Peruvian-Grilled-Chicken-Skewers-4-2.jpg",
     "description": "Grilled Chicken Skewers are juicy and flavorful skewers featuring marinated chicken pieces grilled to perfection. The chicken is marinated in a blend of herbs, spices, and citrus, imparting a delicious smoky flavor when grilled. Serve these skewers with a side of rice and a fresh salad for a satisfying meal.",
-    "category": "Fried & Grilled",
+    "category": "Fried or Grilled",
     "ingredients": [
       "1 lb chicken breast or thigh meat, cut into cubes",
       "1/4 cup olive oil",
@@ -779,7 +779,7 @@
     "name": "Beef Stew",
     "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2023/09/Beef-Stew-main.jpg",
     "description": "Beef Stew is a hearty and flavorful dish featuring tender chunks of beef, potatoes, carrots, and onions cooked in a rich and savory broth. The beef is seared to develop deep flavors, then simmered low and slow until it becomes melt-in-your-mouth tender. This comforting stew is perfect for chilly evenings, offering a satisfying and nourishing meal for the whole family.",
-    "category": "Soup & Stew",
+    "category": "Soup or Stew",
     "ingredients": [
       "2 pounds stew beef, cut into 1-inch cubes",
       "3 tablespoons vegetable oil",
@@ -882,7 +882,7 @@
     "name": "Crispy Pork Belly",
     "image": "https://www.thespruceeats.com/thmb/h4NzVMU9niJSJULK8hTmfBEFwFo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/slow-roasted-pork-belly-crispy-skin-3059509-hero-01-a3056a1c9fa44bea9f6553f9f8f3a058.jpg",
     "description": "Crispy Pork Belly is a flavorful dish featuring tender pork belly with a crispy golden-brown crackling. The pork belly is seasoned with a blend of spices and roasted until the skin is crisp and the meat is juicy. Serve slices of crispy pork belly with dipping sauces and steamed rice for a satisfying meal.",
-    "category": "Fried & Grilled",
+    "category": "Fried or Grilled",
     "ingredients": [
       "2 lbs pork belly, skin-on",
       "1 tablespoon salt",
@@ -1143,7 +1143,7 @@
     "name": "Clam Chowder",
     "image": "https://img.delicious.com.au/TAgP8f06/del/2015/10/fish-and-clam-chowder-14513-1.jpg",
     "description": "Clam Chowder is a creamy and flavorful soup made with tender clams, potatoes, onions, celery, and savory bacon in a rich broth thickened with cream. It has a comforting and indulgent flavors profile, perfect for warming up on chilly days or as a comforting meal. Clam Chowder can be enjoyed as a hearty starter or a satisfying main dish with crusty bread on the side.",
-    "category": "Soup & Stew",
+    "category": "Soup or Stew",
     "ingredients": [
       "4 slices bacon, diced",
       "1 onion, chopped",
@@ -1254,7 +1254,7 @@
     "name": "Lentil Soup",
     "image": "https://www.budgetbytes.com/wp-content/uploads/2020/12/Tomato-Lentil-Soup-bowl.jpg",
     "description": "Lentil Soup is a nutritious and comforting soup made with hearty lentils, vegetables, and aromatic spices. It's a staple in many cultures due to its simplicity and nourishing qualities. Lentil Soup can be made with various types of lentils such as brown, green, or red lentils, each offering a unique texture and flavors. This wholesome soup is perfect for cold days or as a satisfying meal any time of year.",
-    "category": "Soup & Stew",
+    "category": "Soup or Stew",
     "ingredients": [
       "2 tablespoons olive oil",
       "1 onion, chopped",
@@ -1331,7 +1331,7 @@
     "name": "Fish Tacos",
     "image": "https://img.taste.com.au/ZuN3XzkF/taste/2016/11/easy-fish-tacos-106044-1.jpeg",
     "description": "Fish Tacos are a delightful dish featuring crispy fried fish fillets nestled in warm tortillas and topped with fresh slaw and creamy avocado sauce. The fish is lightly breaded and fried to golden perfection, complemented by the vibrant flavors of the toppings. Enjoy these tacos as a tasty and satisfying meal.",
-    "category": "Fried & Grilled",
+    "category": "Fried or Grilled",
     "ingredients": [
       "1 lb white fish fillets (such as cod or tilapia)",
       "1 cup all-purpose flour",
@@ -1477,7 +1477,7 @@
     "name": "Butternut Squash Soup",
     "image": "https://assets.epicurious.com/photos/64e3dc5e2b2b52d7cfe90da8/16:9/w_5482,h_3084,c_limit/Butternut-Squash-Soup_Recipe_081723_1599.jpg",
     "description": "Butternut Squash Soup is a creamy and velvety soup made with roasted butternut squash, onions, garlic, and warming spices like nutmeg and cinnamon. It has a rich and slightly sweet flavors profile, perfect for autumn or winter days. This comforting soup is blended until smooth, creating a luxurious texture that warms you from the inside out.",
-    "category": "Soup & Stew",
+    "category": "Soup or Stew",
     "ingredients": [
       "1 large butternut squash, peeled, seeded, and cubed",
       "2 tablespoons olive oil",
@@ -1656,7 +1656,7 @@
     "name": "Grilled Salmon",
     "image": "https://hips.hearstapps.com/hmg-prod/images/how-to-grill-salmon-recipe1-1655870645.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*",
     "description": "Grilled Salmon is a healthy and flavorful dish featuring tender, flaky salmon fillets marinated in a tangy lemon herb sauce. The salmon is grilled to perfection, imparting a smoky flavor while retaining its natural juices. Serve with a side of vegetables or over a bed of rice for a nutritious and satisfying meal.",
-    "category": "Fried & Grilled",
+    "category": "Fried or Grilled",
     "ingredients": [
       "4 salmon fillets, skin-on",
       "1/4 cup olive oil",
@@ -1689,7 +1689,7 @@
     "name": "Chicken Noodle Soup",
     "image": "https://myheartbeets.com/wp-content/uploads/2020/12/easy-chicken-noodle-soup.jpg",
     "description": "Chicken Noodle Soup is a comforting and hearty soup made with tender chicken, vegetables, egg noodles, and aromatic herbs. It's simmered to perfection in a flavorful chicken broth that warms you from the inside out. This classic soup is perfect for cold days or when you need a soothing meal to lift your spirits.",
-    "category": "Soup & Stew",
+    "category": "Soup or Stew",
     "ingredients": [
       "2 tablespoons olive oil",
       "1 onion, chopped",
@@ -1835,7 +1835,7 @@
     "name": "Fried Dumplings (Potstickers)",
     "image": "https://www.thespruceeats.com/thmb/tCavCIuQ9ab97ZR5iT7keBf3pbM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chinese-pan-fried-dumplings-694499-hero-01-f51eb10e369d47bea2d8809300bbe83a.jpg",
     "description": "Fried Dumplings, also known as Potstickers, are savory dumplings filled with a mixture of ground meat and vegetables, pan-fried until crispy on the bottom and steamed to perfection. These dumplings are served with a dipping sauce made of soy sauce, vinegar, and sesame oil. Enjoy them as a delightful appetizer or main dish.",
-    "category": "Fried & Grilled",
+    "category": "Fried or Grilled",
     "ingredients": [
       "1 lb ground pork or chicken",
       "2 cups finely chopped cabbage",
@@ -1907,7 +1907,7 @@
     "name": "Grilled BBQ Ribs",
     "image": "https://www.harryanddavid.com/blog/wp-content/uploads/2021/07/how-to-grill-ribs.jpg",
     "description": "Grilled BBQ Ribs are tender and flavorful ribs coated in a smoky barbecue sauce and grilled to perfection. These ribs are marinated in a savory rub, slow-cooked until tender, and then finished on the grill for a caramelized crust. Enjoy them with your favorite sides for a delicious barbecue experience.",
-    "category": "Fried & Grilled",
+    "category": "Fried or Grilled",
     "ingredients": [
       "2 racks pork baby back ribs",
       "1/4 cup brown sugar",
@@ -2189,7 +2189,7 @@
     "name": "Fried Rice",
     "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JHZAHWPRG3IN3U7YKXBWVHIQUA.jpg&w=1440",
     "description": "Fried Rice is a versatile dish featuring cooked rice stir-fried with vegetables, eggs, and your choice of protein. This savory and satisfying dish is seasoned with soy sauce and sesame oil for a rich umami flavor. Enjoy it as a main course or side dish, perfect for using up leftover rice and creating a quick meal.",
-    "category": "Fried & Grilled",
+    "category": "Fried or Grilled",
     "ingredients": [
       "3 cups cooked rice, chilled (preferably day-old)",
       "2 tablespoons vegetable oil",
@@ -2406,7 +2406,7 @@
     "name": "Fried Calamari",
     "image": "https://www.willcookforsmiles.com/wp-content/uploads/2021/07/Calamari-5.jpg",
     "description": "Fried Calamari is a delicious appetizer featuring tender rings of squid coated in a crispy seasoned batter. This dish is quick and easy to prepare, perfect for serving with a squeeze of lemon and marinara sauce for dipping. Enjoy crispy fried calamari as a delightful starter or main dish.",
-    "category": "Fried & Grilled",
+    "category": "Fried or Grilled",
     "ingredients": [
       "1 lb squid (calamari), cleaned and cut into rings",
       "1 cup all-purpose flour",
@@ -2615,7 +2615,7 @@
     "name": "Minestrone Soup",
     "image": "https://cdn.loveandlemons.com/wp-content/uploads/2021/11/minestrone-soup.jpg",
     "description": "Minestrone Soup is a hearty Italian soup filled with vegetables, beans, pasta, and aromatic herbs in a flavorful tomato broth. It's a versatile dish that can include a variety of seasonal vegetables such as carrots, celery, zucchini, and spinach. Minestrone Soup is nourishing and satisfying, perfect for chilly evenings or as a starter for an Italian-inspired meal.",
-    "category": "Soup & Stew",
+    "category": "Soup or Stew",
     "ingredients": [
       "2 tablespoons olive oil",
       "1 onion, chopped",

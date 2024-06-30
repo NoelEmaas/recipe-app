@@ -5,7 +5,6 @@ const Collapsible = ({ collapsed }: { collapsed: boolean }) => {
         <li>Home</li>
         <li>Recipes</li>
         <li>Categories</li>
-        <li>About</li>
       </ul>
     </div>
   )

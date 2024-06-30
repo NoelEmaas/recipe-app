@@ -41,7 +41,7 @@ const Hero = () => {
   const currentRecipe = recipes[currentRecipeIndex];
 
   return (
-    <div className="animate-fade-up-enter w-full flex xl:h-[600px] lg:h-[400px] sm:h-[350px] h-[250px] items-center mb-10 rounded-xl p-0">
+    <div className="animate-fade-up-enter w-full flex xl:h-[600px] lg:h-[400px] sm:h-[350px] h-[250px] items-center mb-10 rounded-xl p-0 lg:mt-0 mt-10">
       <div className="pr-2 lg:w-[65%] w-full xl:h-[600px] lg:h-[400px] sm:h-[350px] h-[250px] relative rounded-xl">
         <img 
           src={currentRecipe?.image}

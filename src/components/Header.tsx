@@ -35,7 +35,7 @@ const Header = () => {
   }
 
   return (
-    <header className="animate-fade-down-enter lg:py-16 lg:border-0 border-b py-8 lg:mb-0 mb-10">
+    <header className="animate-fade-down-enter lg:py-16 lg:border-0 border-b py-8">
       <div className="flex items-center justify-between container mx-auto px-4">
         <h1 className={`w-[200px] ${lobster.className} lg:text-4xl text-3xl`}>FlavorShare</h1>
         <ul className="lg:flex hidden items-center gap-x-10 font-medium">

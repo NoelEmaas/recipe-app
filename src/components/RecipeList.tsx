@@ -50,6 +50,13 @@ const RecipeList = ({ recipes, isPending, displayLoadingOnly }: RecipeListProps)
     )
   }
 
+  if (recipes && recipes.length === 0) 
+    return (
+      <div className="flex items-center justify-center h-[40vh]">
+        <p className="text-gray-500 text-xl">No recipes found</p>
+      </div>
+    )
+
   return (
     <Fragment>
       <div className="animate-fade-up-enter grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-4 mb-16">

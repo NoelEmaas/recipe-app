@@ -23,10 +23,5 @@ npm run start
 
 ## **Tech Stack Used**
 
-![Vue3](https://skillicons.dev/icons?i=vue)
+![Vue3](https://skillicons.dev/icons?i=nextjs)
 ![Tailwind](https://skillicons.dev/icons?i=tailwind)
-![Vite](https://skillicons.dev/icons?i=vite)
-![NodeJS](https://skillicons.dev/icons?i=nodejs)
-![Express](https://skillicons.dev/icons?i=express)
-![Mysql](https://skillicons.dev/icons?i=mysql)
-![Mysql](https://skillicons.dev/icons?i=sequelize)

@@ -23,6 +23,7 @@ class FileUtility<T> {
       await fs.writeFile(this.filePath, '[]');
     }
   }
+  
   read = async () => {
     await this.checkPath();
     await this.checkFile();

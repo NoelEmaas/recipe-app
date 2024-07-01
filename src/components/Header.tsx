@@ -93,7 +93,10 @@ const Header = () => {
           <Link href="/recipe" className="font-medium">Search</Link>
         </div>
         <HamburgerIcon onClick={handleCollapsible}/>
-        <Collapsible collapsed={isCollapsed}/>
+        <Collapsible 
+          setIsCollapsed={setIsCollapsed}
+          collapsed={isCollapsed}
+        />
       </div>
     </header>
   )

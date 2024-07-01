@@ -1,5 +1,5 @@
-import { Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
 import { Lobster } from "next/font/google";
+import Link from "next/link";
 
 const lobster = Lobster({ weight: "400", subsets: ["latin"] });
 
@@ -20,40 +20,15 @@ const Footer = () => {
             <div>
               <h2 className="font-medium mb-4">FlavorShare</h2>
               <ul className="text-gray-700 flex flex-col gap-y-2">
-                <li>Homepage</li>
-                <li>Categories</li>
-                <li>Favorites</li>
-                <li>About</li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="font-medium mb-4">Legal</h2>
-              <ul className="text-gray-700 flex flex-col gap-y-2">
-                <li>Terms</li>
-                <li>Conditions</li>
-                <li>Cookies</li>
-                <li>Copyright</li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="font-medium mb-4">Follow</h2>
-              <ul className="text-gray-700 flex flex-col gap-y-2">
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>Instagram</li>
-                <li>Youtube</li>
+                <Link href="/">Homepage</Link>
+                <Link href="/recipe">Recipes</Link>
+                <Link href="/">Categories</Link>
               </ul>
             </div>
           </div>
         </div>
-        <div className="flex sm:flex-row flex-col-reverse sm:gap-y-0 gap-y-10 items-center justify-between border-t mt-16 py-5">
+        <div className="flex sm:flex-row flex-col-reverse sm:gap-y-0 gap-y-10 items-center justify-center border-t mt-16 py-5">
           <p className="text-gray-700 text-sm">&copy; 2024 FlavorShare - All Rights Reserved</p>
-          <ul className="flex items-center gap-x-8 text-gray-700">
-            <li><Facebook className='w-5 h-5'/></li>
-            <li><Instagram className='w-5 h-5'/></li>
-            <li><Twitter className='w-5 h-5'/></li>
-            <li><Youtube className='w-5 h-5'/></li>
-          </ul>
         </div>
         <div>
         </div>

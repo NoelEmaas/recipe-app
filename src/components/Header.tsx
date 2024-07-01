@@ -90,7 +90,7 @@ const Header = () => {
         </ul>
         <div className="w-[200px] lg:flex hidden items-center justify-end gap-x-4">
           <Search />
-          <button className="font-medium">Search</button>
+          <Link href="/recipe" className="font-medium">Search</Link>
         </div>
         <HamburgerIcon onClick={handleCollapsible}/>
         <Collapsible collapsed={isCollapsed}/>

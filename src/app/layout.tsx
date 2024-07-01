@@ -5,7 +5,7 @@ import "@/styles/globals.css";
 import { Header, Footer, } from "@/components";
 
 export const metadata: Metadata = {
-  title: "Recipe App",
+  title: "FlavorShare",
   description: "View and share recipes with the world!",
 };
 

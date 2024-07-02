@@ -14,58 +14,21 @@ const FilteredRecipeList = ({ allRecipes, displayedRecipes, isPending }: Filtere
   const category = searchParams.get('category')?.toString() ?? '';
 
   if (!allRecipes || !displayedRecipes) {
-    return (
-      <RecipeList 
-        displayLoadingOnly={true}
-      />
-    )
+    return <RecipeList displayLoadingOnly={true} />;
   }
 
-  if (search) {
-    if (category) {
-      return (
-        <RecipeList 
-          recipes={ 
-            allRecipes.filter((recipe) => {
-              return recipe.name.toLowerCase().includes(search.toLowerCase()) && recipe.category.toLowerCase() === category.toLowerCase();
-            })
-          }
-          isPending={isPending}
-        />
-      )
-    }
-
-    return (
-      <RecipeList 
-        recipes={ 
-          allRecipes.filter((recipe) => {
-            return recipe.name.toLowerCase().includes(search.toLowerCase());
-          })
-        }
-        isPending={isPending}
-      />
-    )
-  }
-
-  if (category) {
-    return (
-      <RecipeList 
-        recipes={ 
-          allRecipes.filter((recipe) => {
-            return recipe.category.toLowerCase() === category.toLowerCase();
-          })
-        }
-        isPending={isPending}
-      />
-    )
-  }
+  const filteredRecipes = allRecipes.filter((recipe) => {
+    const nameMatch = search ? recipe.name.toLowerCase().includes(search) : true;
+    const categoryMatch = category ? recipe.category.toLowerCase() === category : true;
+    return nameMatch && categoryMatch;
+  });
 
   return (
     <RecipeList 
-      recipes={displayedRecipes}
+      recipes={search || category ? filteredRecipes : displayedRecipes}
       isPending={isPending}
     />
-  )
+  );
 }
 
 export default FilteredRecipeList;
